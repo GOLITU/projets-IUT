@@ -7,7 +7,7 @@ Projets dans le cadre de mes études
  - 
  - 
  - 
-2. Création d'un mode "solo"
+2. Stratégie puissance 4
  - 
  - 
  - 
