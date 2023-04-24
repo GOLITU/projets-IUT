@@ -10,6 +10,7 @@ Ce projet a été réalisé seul, et il pour but de programmer entièrement un p
 Par soucis de simplicité, l'affichage du jeu se fait dans un terminal.
 
 - 
+  - Maquette
   - Création programme en pseudo-code
   - Implémentation en C
   - Documentation doxygene 
