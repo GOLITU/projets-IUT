@@ -1,0 +1,47 @@
+programme Puissance4 c’est
+ constante caractère PION_A := ‘X’;
+ constante caractère PION_B := ‘O’;
+ constante caractère VIDE := ‘ ’;
+ constante caractère INCONNU := ‘ ’;
+ constante entier NBLIG := 6;
+ constante entier NBCOL := 7;
+ constante entier COLONNE_DEBUT := NBCOL/2;
+
+ type Grille : tableau[0..NBLIG-1][0..NBCOL-1] de caractère;
+ 
+ procédure initGrille (entF/sortF Grille);
+ procédure afficher (entF Grille, entF caractère, entF entier);
+ fonction grillePleine (entF Grille) retourne booléen;
+ procédure jouer(entF/sortF Grille, entF caractère, sortF entier,
+entF/sortF entier);
+ fonction choisirColonne (entF Grille, entF caractère, entF entier) retourne
+entier;
+ fonction trouverLigne (entF Grille, entF entier) retourne entier;
+ fonction estVainqueur (entF Grille, entF entier, entF entier) retourne
+booléen;
+ procédure finDePartie (entF caractère);
+ 
+
+Début
+ vainqueur : caractère;
+ ligne, colonne : entier;
+ g : Grille;
+ initGrille(entE/sortE g);
+ vainqueur := INCONNU;
+ afficher(entE g, entE PION_A, entE COLONNE_DEBUT);
+
+ tant que vainqueur==INCONNU ET NON grillePleine(entE g) faire
+ | jouer(entE/sortE g, entE PION_A, sortE ligne, entE/sortE colonne);
+ | afficher(entE g, entE PION_B, entE COLONNE_DEBUT);
+ | si (estVainqueur(entE g, entE ligne, entE colonne)) alors
+ | | vainqueur := PION_A;
+ | sinon si NON grillePleine(entE g) alors
+ | | jouer(entE/sortE g,entE PION_B,sortE ligne,entE/sortE colonne);
+ | | afficher(entE g, entE PION_A, entE COLONNE_DEBUT);
+ | | si estVainqueur(entE g, entE ligne, entE colonne)) alors
+ | | | vainqueur := PION_B;
+ | | finsi
+ | finsi
+ finfaire
+ finDePartie(vainqueur);
+fin
