@@ -129,7 +129,6 @@ void finDePartie (char pion);
  * Programme principal, lance le jeu, appelle les fonctions et procédures
  */
 
-/*
 int main(){
     char vainqueur;
     int ligne, colonne;
@@ -164,12 +163,12 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-*/
 
 /********************/
 /*MAIN POUR LES TEST*/
 /********************/
 
+/*
 int main(){//initGrille
     Grille g;
     char test;
@@ -178,50 +177,8 @@ int main(){//initGrille
     scanf("%c",&test);
     afficherGrille(g);
     return EXIT_SUCCESS;
-}
-/*
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
-
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
-
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
-
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
-
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
-
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
-
-int main(){
-
-
-    return EXIT_SUCCESS;
-}
 */
+    
 /****************************************************************************************************************************************************/
 
 /******************************/
