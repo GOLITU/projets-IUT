@@ -2,9 +2,7 @@
 Ceci est le dépôt git de mes projets scolares à l'IUT,\
 Chaques rendus et chaques étapes de réalisations sont ici.
 
----
-
-# Sommaire
+### Sommaire
 
 1. Puissance 4
 
@@ -18,8 +16,10 @@ Par soucis de simplicité, l'affichage du jeu se fait dans un terminal.
  
 2. Stratégie puissance 4
 
-Pour ce projet nous étions en binômes, d'abord chacun créait sa stratégie pour les confronter par la suite et choisir la meilleure pour l'optimiser.\
-L'objectif était de créer un code pour jouer automatiquement sur le puissance 4 ci-dessus.\
+Pour ce projet nous étions en binômes, l'objectif était de créer un code pour jouer automatiquement sur le puissance 4 ci-dessus.\
+
+D'abord chacun créait sa stratégie pour les confronter par la suite et finalement choisir la plus forte pour l'optimiser.\
+
 L'enjeu était de créer un code rapide à executer, et qui puisse gagner le plus souvent possible.\
 
 -
@@ -31,9 +31,13 @@ L'enjeu était de créer un code rapide à executer, et qui puisse gagner le plu
  
 3. Le problème du cavalier
 
+Pour ce projet nous étions en binômes, l'objectif était de réaliser un code en python pour résoudre un problème.\
+Nous avons choisi le problème du cavalier, il consiste à trouver un chemin pour que le cavalier ait parcouru toutes les cases de l'échiquer sans jamais retourner sur une case précédement visitée
+
 -  
-  - 
-  - 
+  - Analyse du problème
+  - Brainstorming sur tableau blanc
+  - Programmation du code
 
 
 4. Site web "Sport KOH"
